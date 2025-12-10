@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: rgba(108, 238, 164, 0.772);
+}
+
+.input-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 380px;
+  background-color: white;
+  padding: 9px 12px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.input-box input {
+  padding: 4px 20px;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  background-color: white;
+  font-size: 20px;
+  color: black;
+}
